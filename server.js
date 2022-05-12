@@ -11,7 +11,7 @@ const HOST = '0.0.0.0';
 const app = express();
 app.get('/', (req, res) => {
   res.send(
-    `<body style='background-color:#283E5B'><h1 style='color: orange;text-align:center'>Intergration ECS with Service Discovery - New Update - ${os.hostname()}</h1></body>`
+    `<body style='background-color:#283E5B'><h1 style='color: orange;text-align:center'>ECS with Fargate not CI/CD, but using CodeBuild for auto build docker images - ${os.hostname()}</h1></body>`
   );
 });
 
